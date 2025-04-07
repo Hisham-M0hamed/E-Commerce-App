@@ -27,6 +27,10 @@ const routes = createBrowserRouter([
         element: <Home />,
       },
       {
+        path: "E-Commerce-App",
+        element: <Home />,
+      },
+      {
         path: "*",
         element: <PageNotFound />,
       },
