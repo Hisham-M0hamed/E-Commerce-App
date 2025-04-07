@@ -13,6 +13,16 @@ import {
   Typography,
 } from "@mui/material";
 import DeleteIcon from "@mui/icons-material/Delete";
+// @ts-ignore
+import imagePlay from "../../images/play.png";
+// @ts-ignore
+import imageLed from "../../images/led.png";
+// @ts-ignore
+import imageCar from "../../images/car.png";
+// @ts-ignore
+import imageLapTop from "../../images/laptop.png";
+// @ts-ignore
+import imageShoes from "../../images/shoes.png";
 
 import React from "react";
 const dataWishList = [
@@ -22,7 +32,7 @@ const dataWishList = [
     price: "$120",
     oldPrice: "$180",
     rating: 4,
-    link: "src/images/play.png",
+    link: imagePlay,
   },
   {
     id: "2",
@@ -30,7 +40,7 @@ const dataWishList = [
     price: "$800",
     oldPrice: "$940",
     rating: 5,
-    link: "src/images/led.png",
+    link: imageLed,
   },
   {
     id: "3",
@@ -38,7 +48,7 @@ const dataWishList = [
     price: "$400",
     oldPrice: "$500",
     rating: 4.5,
-    link: "src/images/car.png",
+    link: imageCar,
   },
   {
     id: "4",
@@ -46,14 +56,15 @@ const dataWishList = [
     price: "$1500",
     oldPrice: "$1800",
     rating: 4.8,
-    link: "src/images/laptop.png",
+    link: imageLapTop,
   },
   {
     id: "5",
     title: "Jr.Zoom Soccer",
     price: "$1500",
+    oldPrice: "$2000",
     rating: 4.3,
-    link: "src/images/shoes.png",
+    link: imageShoes,
   },
 ];
 const WishList = () => {

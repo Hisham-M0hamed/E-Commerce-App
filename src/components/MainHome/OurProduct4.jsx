@@ -4,6 +4,7 @@
 import { Swiper, SwiperSlide } from "swiper/react";
 import Card from "@mui/material/Card";
 import CardContent from "@mui/material/CardContent";
+// @ts-ignore
 import CardMedia from "@mui/material/CardMedia";
 import Typography from "@mui/material/Typography";
 import CardActionArea from "@mui/material/CardActionArea";
@@ -17,6 +18,17 @@ import { Grid, Pagination } from "swiper/modules";
 import { Box, Button, Container, Rating, Stack } from "@mui/material";
 import { AddShoppingCart } from "@mui/icons-material";
 
+// @ts-ignore
+import imagePlay from "../../images/play.png";
+// @ts-ignore
+import imageLed from "../../images/led.png";
+// @ts-ignore
+import imageCar from "../../images/car.png";
+// @ts-ignore
+import imageLapTop from "../../images/laptop.png";
+// @ts-ignore
+import imageShoes from "../../images/shoes.png";
+
 const dataHome4 = [
   {
     id: "1",
@@ -24,7 +36,7 @@ const dataHome4 = [
     price: "$120",
     oldPrice: "$180",
     rating: 4,
-    link: "src/images/play.png",
+    link: imagePlay,
   },
   {
     id: "2",
@@ -32,7 +44,7 @@ const dataHome4 = [
     price: "$800",
     oldPrice: "$940",
     rating: 5,
-    link: "src/images/led.png",
+    link: imageLed,
   },
   {
     id: "3",
@@ -40,7 +52,7 @@ const dataHome4 = [
     price: "$400",
     oldPrice: "$500",
     rating: 4.5,
-    link: "src/images/car.png",
+    link: imageCar,
   },
   {
     id: "4",
@@ -48,14 +60,15 @@ const dataHome4 = [
     price: "$1500",
     oldPrice: "$1800",
     rating: 4.8,
-    link: "src/images/laptop.png",
+    link: imageLapTop,
   },
   {
     id: "5",
     title: "Jr.Zoom Soccer",
     price: "$1500",
+    oldPrice: "$2000",
     rating: 4.3,
-    link: "src/images/shoes.png",
+    link: imageShoes,
   },
 ];
 const OurProduct4 = () => {

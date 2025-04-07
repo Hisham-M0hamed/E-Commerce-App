@@ -17,7 +17,12 @@ import "./swiper.css";
 import { Pagination, Navigation } from "swiper/modules";
 import { Box, Container, Rating, Stack } from "@mui/material";
 import { AddShoppingCart } from "@mui/icons-material";
-// import image1 from "../../images/play.png";
+import imagePlay from "../../images/play.png";
+import imageLed from "../../images/led.png";
+import imageCar from "../../images/car.png";
+import imageLapTop from "../../images/laptop.png";
+import imageShoes from "../../images/shoes.png";
+
 const dataHome = [
   {
     id: "1",
@@ -25,7 +30,7 @@ const dataHome = [
     price: "$120",
     oldPrice: "$180",
     rating: 4,
-    link: "src/images/play.png",
+    link: imagePlay,
   },
   {
     id: "2",
@@ -33,7 +38,7 @@ const dataHome = [
     price: "$800",
     oldPrice: "$940",
     rating: 5,
-    link: "src/images/led.png",
+    link: imageLed,
   },
   {
     id: "3",
@@ -41,7 +46,7 @@ const dataHome = [
     price: "$400",
     oldPrice: "$500",
     rating: 4.5,
-    link: "src/images/car.png",
+    link: imageCar,
   },
   {
     id: "4",
@@ -49,7 +54,7 @@ const dataHome = [
     price: "$1500",
     oldPrice: "$1800",
     rating: 4.8,
-    link: "src/images/laptop.png",
+    link: imageLapTop,
   },
   {
     id: "5",
@@ -57,7 +62,7 @@ const dataHome = [
     price: "$1500",
     oldPrice: "$2000",
     rating: 4.3,
-    link: "src/images/shoes.png",
+    link: imageShoes,
   },
 ];
 const SwiperHome = () => {
