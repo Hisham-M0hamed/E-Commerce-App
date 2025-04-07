@@ -1,0 +1,29 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  list-style: none;
+  text-decoration: none;
+}
+
+body {
+  font-family: "Roboto", sans-serif;
+  background-color: #eee;
+}
+html {
+  scroll-behavior: smooth;
+}
+.nav-link {
+  margin-left: 20px;
+  font-size: 18px;
+  transition: color 0.3s ease;
+  color: #555;
+}
+.nav-link:hover,
+li .active {
+  color: #333;
+  font-weight: 600;
+  cursor: pointer;
+  transition: color 0.3s ease;
+  text-decoration: underline;
+}
