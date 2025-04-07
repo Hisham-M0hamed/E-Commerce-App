@@ -221,19 +221,28 @@ const CheckOut = () => {
               Apply Coupon
             </Button>
           </Stack>
-          <Button
+          <Box
             sx={{
-              padding: "2px 40px",
-              textAlign: "center",
-              fontSize: "small",
-              border: "1px solid #ccc",
-              backgroundColor: "#DB4444",
-              color: "#fff",
-              height: 50,
+              display: "flex",
+              justifyContent: "center",
+              alignItems: "center",
             }}
           >
-            Place Order
-          </Button>
+            <Button
+              sx={{
+                padding: "2px 40px",
+                textAlign: "center",
+                marginX: "auto",
+                fontSize: "small",
+                border: "1px solid #ccc",
+                backgroundColor: "#DB4444",
+                color: "#fff",
+                height: 50,
+              }}
+            >
+              Place Order
+            </Button>
+          </Box>
         </Box>
       </Box>
     </Container>
